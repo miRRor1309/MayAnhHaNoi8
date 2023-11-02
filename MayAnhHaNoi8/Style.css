@@ -1,0 +1,497 @@
+﻿body {
+    margin: 0px;
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+/*----------------------------------HEADER-----------------------------*/
+.header {
+    background-color: #BF3674;
+    width: 100%;
+    height: 76px;
+}
+
+.header-Info {
+    width: 75%;
+    height: 76px;
+    margin: auto;
+}
+
+    .header-Info ul {
+        list-style: none;
+        padding: 3px;
+        margin: 0px;
+    }
+
+        .header-Info ul li {
+            display: inline-block;
+            vertical-align: middle;
+        }
+/*--------------------------------HEADER-LOGO---------------------------*/
+.header-logo {
+    width: 170px;
+    height: 55px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+}
+
+    .header-logo img {
+        width: 170px;
+        height: 55px;
+    }
+/*--------------------------------HEADER-SEARCH---------------------------*/
+.header-search input {
+    width: 400px;
+    height: 36px;
+    margin: 17px;
+    margin-right: 0px;
+    border: none;
+    float: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.header-search button {
+    background-color: #ffa800;
+    width: 55px;
+    height: 36px;
+    margin: 17px;
+    margin-left: 0px;
+    border: none;
+    float: left;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+input[type="te"] {
+    text-align: left;
+    margin-left: 5px;
+}
+/*-------------------------------HEADER-SEEN--------------------------------*/
+.header-seen {
+    color: white;
+    background-color: #972b5c;
+    padding: 15px 40px 15px 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/*---------------------------------HEADER-NUMBER------------------------------*/
+.header-number {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.evo-hotline {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.DangNhap {
+    position: absolute;
+    top: 45px;
+    right: -20px;
+    min-width: 150px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(50,50,50,0.33);
+    text-align: right;
+    border-radius: 4px;
+    display: none
+}
+
+.TaiKhoan:hover + .DangNhap {
+    display: block;
+    margin-right: 220px;
+    margin-top: 10px;
+}
+
+
+.evo-title {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.1;
+}
+/*---------------------------------NAV-------------------------------------------*/
+.nav {
+    width: 100%;
+    background-color: white;
+    height: 46.2px;
+}
+
+    .nav a:hover {
+        color: #BF3674;
+    }
+
+.nav-Info {
+    width: 75%;
+    margin: auto;
+}
+
+    .nav-Info ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .nav-Info ul li {
+            display: inline-flex;
+            vertical-align: middle;
+        }
+/*----------------------------------NAV-DANHMUC-----------------------------------*/
+.nav-danhmuc {
+    height: 47px;
+    width: 290px;
+    padding: 10px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2)
+}
+
+    .nav-danhmuc span {
+        display: block;
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+        text-transform: uppercase
+    }
+
+        .nav-danhmuc span:after {
+            content: "\f107";
+            font-family: 'FontAwesome';
+            margin-left: 5px
+        }
+
+        .nav-danhmuc span:before {
+            content: "\f0c9";
+            font-family: 'FontAwesome';
+            margin-right: 10px
+        }
+/*-----------------------------------NAV-DIACHI-------------------------------------*/
+.nav-diachi {
+    width: 640px;
+    height: 44px;
+    font-size: small;
+    display: flex;
+    margin-top: 10px;
+}
+
+    .nav-diachi img {
+        height: 27px;
+        padding-left: 14px;
+        vertical-align: middle;
+    }
+/*-----------------------------------SECTION-1---------------------------------------*/
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    margin-left: 180px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.home-slider {
+    padding-top: 8px
+}
+
+.near_slider_banner .col-xs-6 {
+    padding-bottom: 2.5px
+}
+
+.menu {
+    background-color: white;
+}
+
+.danhmuc-btn2 {
+    width: 288px;
+    height: 45px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+}
+
+    .danhmuc-btn2 a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        padding: 13px 5px 5px 3px;
+    }
+
+i.fa-solid.fa-caret-right:before {
+    padding-left: 180px
+}
+
+.section-2 {
+    width: 100%;
+    height: 191.66px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+    .section-2 img {
+        height: 191.66px;
+        width: 75%;
+    }
+
+.section-gift {
+    background-color: hotpink;
+    width: 75%;
+    margin: auto;
+}
+    /* Define the grid container */
+    .section-gift .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+        gap: 0px; /* Gap between grid items */
+        text-align: center;
+    }
+
+    /* Style for grid items */
+    .section-gift .grid-item {
+    }
+
+        .section-gift .grid-item img {
+            padding: 15px;
+            width: 200px;
+        }
+
+.section-mayanh {
+    background-color: whitesmoke;
+    width: 75%;
+    height: 388.4px;
+    margin: auto;
+}
+
+.section-ongkinh {
+    background-color: whitesmoke;
+    width: 75%;
+    height: 388.4px;
+    margin: auto;
+}
+
+.section-phukien {
+    background-color: whitesmoke;
+    width: 75%;
+    height: 388.4px;
+    margin: auto;
+}
+
+.email-submit {
+}
+
+.footer {
+    background-color: #262844;
+    width: 100%;
+    height: 680px;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Apply some basic styling */
+.section-mayanh .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.section-mayanh .grid-item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+    div.scroll-container img {
+        max-width: 250px;
+        padding: 10px;
+    }
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.news:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer img {
+    text-align: center;
+}
+
+.footer .column {
+    float: left;
+    margin-top: 200px;
+    width: 33.333%;
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list-menu a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 7px;
+}
+
+    .list-menu a:hover {
+        color: #BF3674;
+    }
+
+.danhmuc-btn a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+/*-------------------------------SẢN PHẨM TỐT NHÂT--------------------------------------*/
+.fix-layout {
+    width: 100%;
+    height: 325px;
+    padding-bottom: 70px;
+    margin: auto;
+}
+
+.container-SPGiaTot {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.col-xs-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-md-12 {
+    padding-left: 185px;
+    padding-right: 185px;
+}
+
+.bread-crumb {
+    margin-left: 180px;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+
+    .bread-crumb .breadcrumb {
+        background: transparent;
+        color: rgba(112,126,137,0.5);
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+.breadcrumb li {
+    display: inline;
+}
+
+.bread-crumb .breadcrumb a {
+    color: #707e89;
+}
+
+.breadcrumb li > a > span {
+    color: #333;
+}
+
+.breadcrumb li span {
+    display: inline;
+    color: #bf3674;
+    padding: 0 2px;
+    font-size: 14px;
+}
+
+.evo-main-cate {
+    margin-bottom: 0;
+    border-radius: 0
+}
+
+.evo-main-cate {
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+    .evo-main-cate .col-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px
+    }
+
+    .evo-main-cate .evo-fix-col-title {
+        border-top: 1px solid #f3f3f3;
+        padding-top: 10px;
+        margin-top: 10px
+    }
+
+    .evo-main-cate .group-category-title, .evo-main-cate .group-filter-title {
+        font-size: 14px;
+        position: relative
+    }
+
+    .evo-main-cate .group-filter-title {
+        border-left: 1px solid #f3f3f3
+    }
+
+.main-evo-categories {
+    margin-top: 10px
+}
+
+.category-products {
+    margin-top: 0px
+}
+
+.main-evo-categories .category-products .sort-cate {
+    font-size: 12px;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 10px
+}
+
+.category-products .sort-cate .sort-cate-left ul li {
+    float: left;
+    padding: 0 0 0 10px
+}
+
+.nav-danhmuc:hover {
+    background: white;
+}
+
+    .nav-danhmuc:hover .menu {
+        display: block;
+    }
+
+.nav-danhmuc .menu {
+    position: absolute;
+    display: none;
+    margin-left: -9px;
+    margin-top: 15px;
+}
